@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyMathTestShortenedVersion" project="junit_in_5_steps" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.in28minutes.junit.MyMathTestShortenedVersion" time="0.017" displayname="MyMathTestShortenedVersion" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.junit.MyMathTestShortenedVersion]">
+    <testcase name="test" classname="com.in28minutes.junit.MyMathTestShortenedVersion" time="0.016" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.junit.MyMathTestShortenedVersion]/[method:test()]"/>
+    <testcase name="testCaseZero" classname="com.in28minutes.junit.MyMathTestShortenedVersion" time="0.001" displayname="testCaseZero()" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.junit.MyMathTestShortenedVersion]/[method:testCaseZero()]"/>
+  </testsuite>
+</testrun>

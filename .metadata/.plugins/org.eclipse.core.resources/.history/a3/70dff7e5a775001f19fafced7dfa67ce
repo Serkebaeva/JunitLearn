@@ -1,0 +1,14 @@
+package com.in28minutes.junit;
+
+public class MyAssertTest {
+	List<String> todos = Arrays.asList("AWS", "Azure", "DevOps");
+
+	@Test
+	void test() {
+	Boolean test = todos.contains("AWS"); //Reult
+
+	//assertEquals(true, test)	
+	assertTrue("Something went wrong", test);
+	assertEquals(3, todos.size(), "failure message");
+	}
+}

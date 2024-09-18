@@ -1,0 +1,33 @@
+package com.in28minutes.junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MyMathTest {
+	// {} => 0
+	@Test
+	void testCaseZero() {
+		int[] numbers = {};
+		MyMath math = new MyMath();
+		int result = math.calculateSum(numbers);
+		System.out.println(result);
+		int expectedResult = 0;
+		assertEquals(expectedResult, result);
+		//Absence of failures is success
+		//Test Condition or Assert
+	}
+ 
+	@Test
+	void test() {
+		int[] numbers = {1, 2, 3};
+		MyMath math = new MyMath();
+		int result = math.calculateSum(numbers);
+		System.out.println(result);
+		int expectedResult = 6;
+		assertEquals(expectedResult, result);
+		//Absence of failures is success
+		//Test Condition or Assert
+	}
+
+}
