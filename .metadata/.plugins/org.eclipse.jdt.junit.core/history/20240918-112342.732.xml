@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MyMathTest" project="junit_in_5_steps" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.in28minutes.junit.MyMathTest" time="0.021" displayname="MyMathTest" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.junit.MyMathTest]">
-    <testcase name="test" classname="com.in28minutes.junit.MyMathTest" time="0.021" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.junit.MyMathTest]/[method:test()]"/>
-  </testsuite>
-</testrun>
